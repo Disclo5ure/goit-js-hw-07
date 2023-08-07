@@ -23,7 +23,7 @@ gallery.addEventListener("click", (e) => {
   const instance = basicLightbox.create(`
     <div class="modal">
         <img
-      src="${e.target.dataset.sourwwwwwwwce}"
+      src="${e.target.dataset.source}"
       alt="${e.target.alt}"
     />
     </div>
