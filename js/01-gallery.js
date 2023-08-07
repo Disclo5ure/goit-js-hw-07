@@ -19,10 +19,11 @@ galleryItems.forEach(
 
 gallery.addEventListener("click", (e) => {
   e.preventDefault();
+  if (e.target.nodeName !== "IMG") return;
   const instance = basicLightbox.create(`
     <div class="modal">
         <img
-      src="${e.target.dataset.source}"
+      src="${e.target.dataset.sourwwwwwwwce}"
       alt="${e.target.alt}"
     />
     </div>
